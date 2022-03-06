@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+/*this is blog header*/
+.header {
+    background-image: linear-gradient(rgb(196, 169, 231),rgb(103, 43, 180));
+    font-weight: bold;
+    padding: 30px;
+    box-shadow: 16px 8px 16px 16px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+.header h1 {
+    font-size: 50px;
+    letter-spacing: -10px;
+    text-shadow: 3px 3px black;
+}
+/*style the topnav*/
+.topnav {
+    background-color: rgb(103, 43, 180);
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(141, 103, 103, 0.2);
+    border-radius: 10px;
+}
+/* style the top nav list*/
+.topnav a {
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    color: white;
+}
+/* change for nav bar when u move mouse over it */
+.topnav a:hover {
+    background-color: white;
+    color: rgb(103, 43, 180);
+}
+/* image  styling */
+img {
+    width: 100%;
+    padding: 20px;
+}
+.left-col { 
+    float: left;
+    width: 75%;
+}
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 6px;
+   box-shadow: 0px 8px 16px 0px rgba(141, 103, 103, 0.2);
+} 
+.row::after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+.right-col {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+/* style the footer */
+div.footer {
+    background-image: linear-gradient(rgb(196, 169, 231),rgb(103, 43, 180)); 
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 16px 16px 5px rgba(141, 103, 103, 0.8); 
+}
+input[type="search"] {
+    border: 3px solid rgb(211, 208, 208);
+    box-sizing: border-box;
+    background-image: url(baseline_search_black_24dp.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 12px 12px 40px;
+    width: 16%;
+    border-radius: 30px;
+    transition: 1s;
+}
+input[type="search"]:focus {
+    width: 100%;
+    background-color: rgb(103, 43, 180, 0.5);
+    color: white;
+    border: 3px solid rgb(103, 43, 180);
+}
+.search {
+    margin-top: 20px;
+}
+@media  screen and (max-width: 800px) {
+    .left-col, .right-col {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+/* style the breezysoft heading */
+.B {
+    color: rgb(247, 4, 4);
+}
+.r {
+    color: rgb(36, 163, 36);
+}
+.e {
+    color: rgb(230, 184, 191);
+}
+.y {
+    color: rgb(171, 187, 25);
+}
+.s {
+    color: mediumslateblue;
+}
+.o {
+    color: rgb(255, 217, 0);
+}
+.t {
+    color: aqua;
+}
+.f {
+    color: orangered;
+}
+div.breezy {
+    letter-spacing: -4px;
+    text-shadow: 2px 2px black;
+}
