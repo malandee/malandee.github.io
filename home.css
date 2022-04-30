@@ -20,6 +20,7 @@ body {
     font-size: 50px;
     letter-spacing: -10px;
     text-shadow: 3px 3px black;
+    max-width: 170px;
 }
 /*style the topnav*/
 .topnav {
